@@ -1,0 +1,23 @@
+.analytics {
+   width: 100%;
+   padding-block: 3em;
+   display: flex;
+   flex-direction: column;
+   gap: 2em;
+}
+
+.count {
+   width: 50%;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.count p {
+   font-weight: bold;
+}
+
+.count li {
+   display: flex;
+   justify-content: space-between;
+}

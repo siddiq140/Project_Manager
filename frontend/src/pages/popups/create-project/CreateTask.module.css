@@ -1,0 +1,208 @@
+.popupOverlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   background: rgba(0, 0, 0, 0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow-y: auto;
+   height: 100vh;
+   scrollbar-width: thin;
+   scrollbar-color: #9cb7c5;
+   z-index: 999;
+}
+
+.popupForm {
+   background-color: white;
+   padding: 20px;
+   width: 40%;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   overflow-y: auto;
+   max-height: 80vh;
+   padding-right: 10px;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   padding-block: 1.5em;
+}
+
+.formGroup {
+   width: 100%;
+   margin-bottom: 30px;
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+}
+
+.label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+
+.textInput {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+.errorInput {
+   border-color: red;
+}
+
+.priorityButtons {
+   display: flex;
+   gap: 15px;
+   margin-top: 10px;
+}
+
+.radioLabel {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+.addChecklistBtn {
+   background-color: transparent;
+   color: #767575;
+   border: none;
+   cursor: pointer;
+   margin-top: 10px;
+   font-size: 1rem;
+}
+
+.checklistItem {
+   display: flex;
+   border: 2px solid #e2e2e2;
+   padding-inline: 1em;
+   padding-block: 0.45em;
+   align-items: center;
+   margin-bottom: 10px;
+   justify-content: space-between;
+   border-radius: 0.7em;
+}
+
+.deleteChecklistBtn {
+   background: none;
+   border: none;
+   color: red;
+   font-weight: bolder;
+   font-size: 1.25rem;
+   cursor: pointer;
+   margin-left: 10px;
+}
+
+.formActions {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.cancelBtn {
+   background-color: #f8d7da;
+   border: 1px solid #f5c6cb;
+   color: #721c24;
+   padding: 10px 20px;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.saveBtn {
+   background-color: #007bff;
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.errorText {
+   color: red;
+   font-size: 0.85rem;
+}
+
+.dropdownContainer {
+   width: 100%;
+   position: relative;
+}
+
+.dropdwnInput {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+.dropdownList {
+   position: absolute;
+   background-color: white;
+   border: 1px solid #ccc;
+   max-height: 150px;
+   overflow-y: auto;
+   z-index: 1000;
+   width: 100%;
+}
+
+.dropdownItem {
+   padding: 8px;
+   cursor: pointer;
+}
+
+.dropdownItem:hover {
+   background-color: #f0f0f0;
+}
+
+.priorityButtons {
+   display: flex;
+   gap: 10px;
+}
+
+.priorityButton {
+   padding: 10px 15px;
+   border: 2px solid transparent;
+   background-color: #f0f0f0;
+   cursor: pointer;
+   transition: border-color 0.3s ease;
+}
+
+.priorityButton:hover {
+   background-color: #e0e0e0;
+}
+
+.selected {
+   border-color: orange;
+   background-color: #fff;
+}
+
+.popupOverlay::-webkit-scrollbar {
+   width: 12px;
+}
+
+.popupOverlay::-webkit-scrollbar-track {
+   background: #9cb7c5;
+   border-radius: 10px;
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.popupOverlay::-webkit-scrollbar-thumb {
+   background-color: #9cb7c5;
+   border-radius: 10px;
+   border: 3px solid #e0e0e0;
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.popupOverlay::-webkit-scrollbar-thumb:hover {
+   background-color: #9cb7c5;
+}
+
+.popupOverlay::-webkit-scrollbar-corner {
+   background-color: transparent;
+}

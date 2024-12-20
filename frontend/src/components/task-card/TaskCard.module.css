@@ -1,0 +1,169 @@
+.card {
+   position: relative;
+   background-color: #fff;
+   padding: 16px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 280px;
+   font-family: Arial, sans-serif;
+}
+
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 0.85rem;
+   color: #555;
+}
+
+.priorityDot {
+   width: 8px;
+   height: 8px;
+   background-color: #ff3b30;
+   border-radius: 50%;
+   margin-right: 8px;
+}
+
+.priority {
+   font-weight: bold;
+   color: #ff3b30;
+}
+
+.optionsButton {
+   background: none;
+   border: none;
+   font-size: 1rem;
+   cursor: pointer;
+}
+
+.actionDd {
+   position: absolute;
+   left: 80%;
+   background: white;
+   top: 20%;
+}
+
+.title {
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin: 16px 0 8px;
+}
+
+.checklistHeader {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 0.85rem;
+   color: #555;
+}
+
+.collapseButton {
+   background: none;
+   border: none;
+   font-size: 1rem;
+   cursor: pointer;
+   color: #888;
+}
+
+.checklist {
+   margin: 8px 0;
+}
+
+.task {
+   display: flex;
+   align-items: center;
+   padding: 8px;
+   border: 1px solid #eee;
+   border-radius: 6px;
+   margin-bottom: 8px;
+}
+
+.task input {
+   margin-right: 8px;
+}
+
+.footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 16px;
+}
+
+.date {
+   background-color: #ff3b30;
+   color: #fff;
+   padding: 4px 8px;
+   border-radius: 6px;
+   font-size: 0.85rem;
+}
+
+.statusContainer {
+   display: flex;
+   gap: 8px;
+}
+
+.status {
+   background-color: #f5f5f5;
+   color: #888;
+   padding: 4px 8px;
+   border-radius: 6px;
+   font-size: 0.85rem;
+}
+
+.date {
+   background-color: #eee;
+   color: #555;
+   padding: 4px 8px;
+   border-radius: 6px;
+   font-size: 0.85rem;
+}
+
+.highlighted {
+   background-color: #ff3b30;
+   color: #fff;
+}
+
+.highPriority {
+   color: red;
+}
+
+.moderatePriority {
+   color: teal;
+}
+
+.lowPriority {
+   color: lightgreen;
+}
+
+.defaultDueDate {
+   background-color: #eee;
+   color: #555;
+}
+
+.highDueDate {
+   background-color: #ff3b30;
+   color: #fff;
+}
+
+.doneDueDate {
+   background-color: green;
+   color: #fff;
+}
+
+.priorityDot.highPriority {
+   background-color: red;
+}
+
+.priorityDot.moderatePriority {
+   background-color: teal;
+}
+
+.priorityDot.lowPriority {
+   background-color: lightgreen;
+}
+
+.button {
+   border: none;
+   padding: 0.5em;
+   border-radius: 0.7em;
+}
